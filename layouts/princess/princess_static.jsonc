@@ -1,0 +1,60 @@
+{
+  "princess_row_1": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "10, 10",
+        "h_alignment": "left",
+        "item_size": 48,
+        "rows": [
+          [
+            "princess_static",
+            "razor_static",
+            "adversary_static",
+            "tower_static",
+            "spectre_static",
+            "nightmare_static",
+            "stranger_static",
+            "beast_static",
+            "witch_static",
+            "prisoner_static",
+            "damsel_static"
+          ]
+        ]
+      }
+    ]
+  },
+  "princess_row_2": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "10, 10",
+        "h_alignment": "left",
+        "item_size": 48,
+        "rows": [
+          [
+            "needle_static",
+            "fury_static",
+            "apotheosis_static",
+            "dragon_static",
+            "wraith_static",
+            "clarity_static",
+            "den_static",
+            "wild_static",
+            "thorn_static",
+            "cage_static",
+            "grey_static",
+            "happy_static",
+            "shifting_mound_static"
+          ]
+        ]
+      }
+    ]
+  }
+}

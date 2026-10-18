@@ -1,0 +1,30 @@
+{
+  "voice": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "10, 10",
+        "h_alignment": "left",
+        "item_size": 48,
+        "rows": [
+          [
+            "hero_static",
+            "cheated_static",
+            "stubborn_static",
+            "broken_static",
+            "cold_static",
+            "paranoid_static",
+            "contrarian_static",
+            "hunted_static",
+            "opportunist_static",
+            "skeptic_static",
+            "smitten_static"
+          ]
+        ]
+      }
+    ]
+  }
+}

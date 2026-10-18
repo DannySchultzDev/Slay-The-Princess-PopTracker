@@ -1,0 +1,460 @@
+{
+  //sets the trackers layout
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "dock": "left",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Items",
+                  "dock": "left",
+                  "margin": "0,0,3,0",
+                  "content": {
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "princess_row_1"
+                  }
+                },
+                {
+                  "type": "array",
+                  "dock": "left",
+                  "margin": "0,0,3,0",
+                  "content": {
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "voice"
+                  }
+                },
+                {
+                  "type": "array",
+                  "dock": "left",
+                  "margin": "0,0,3,0",
+                  "content": {
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "blade_row_1"
+                  }
+                },
+                {
+                  "type": "array",
+                  "dock": "left",
+                  "margin": "0,0,3,0",
+                  "content": {
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "princess_row_2"
+                  }
+                },
+                {
+                  "type": "array",
+                  "dock": "left",
+                  "margin": "0,0,3,0",
+                  "content": {
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "blade_row_2"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "dock": "left",
+              "content": [
+                {
+                  "type": "group",
+                  "dock": "left",
+                  "margin": "0,0,3,0",
+                  "content": {
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "sword_row"
+                  }
+                },
+                {
+                  "type": "array",
+                  "dock": "left",
+                  "margin": "0,0,3,0",
+                  "content": {
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "narrator_row"
+                  }
+                },
+                {
+                  "type": "array",
+                  "dock": "left",
+                  "margin": "0,0,3,0",
+                  "content": {
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "gifts_row"
+                  }
+                },
+                {
+                  "type": "array",
+                  "dock": "left",
+                  "margin": "0,0,3,0",
+                  "content": {
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "memories_row"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "dock": "left",
+              "content": [
+                {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "group",
+                      "header": "Item Settings",
+                      "dock": "left",
+                      "margin": "0,0,3,0",
+                      "content": {
+                        "type": "layout",
+                        "h_alignment": "center",
+                        "v_alignment": "center",
+                        "key": "item_settings"
+                      }
+                    },
+                    {
+                      "type": "group",
+                      "header": "Location Settings",
+                      "dock": "left",
+                      "margin": "0,0,3,0",
+                      "content": {
+                        "type": "layout",
+                        "h_alignment": "center",
+                        "v_alignment": "center",
+                        "key": "location_settings"
+                      }
+                    }
+                  ]
+                },
+                {
+                   "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "group",
+                      "header": "Combo Settings",
+                      "dock": "left",
+                      "margin": "0,0,3,0",
+                      "content": {
+                        "type": "layout",
+                        "h_alignment": "center",
+                        "v_alignment": "center",
+                        "key": "combo_settings"
+                      }
+                    },
+                    {
+                      "type": "group",
+                      "header": "Goal Settings",
+                      "dock": "left",
+                      "margin": "0,0,3,0",
+                      "content": {
+                        "type": "layout",
+                        "h_alignment": "center",
+                        "v_alignment": "center",
+                        "key": "goal_settings"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Overview",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "overview"
+                ]
+              }
+            },
+            {
+              "title": "Chapter 1",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "chapter 1"
+                ]
+              }
+            },
+            {
+              "title": "Chapter 2",
+              "content": [
+                {
+                  "type": "tabbed",
+                  "tabs": [
+                    {
+                      "title": "The Razor",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "razor"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Adversary",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "adversary"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Tower",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "tower"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Spectre",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "spectre"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Nightmare",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "nightmare"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Stranger",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "stranger"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Beast",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "beast"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Witch",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "witch"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Prisoner",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "prisoner"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Damsel",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "damsel"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Chapter 3",
+              "content": [
+                {
+                  "type": "tabbed",
+                  "tabs": [
+                    {
+                      "title": "The Eye of the Needle",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "needle"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Fury",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "fury"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Apotheosis",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "apotheosis"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Princess and the Dragon",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "dragon"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Wraith",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "wraith"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Moment of Clarity",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "clarity"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Den",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "den"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Wild",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "wild"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Thorn",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "thorn"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Cage",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "cage"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "The Grey",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "grey"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Happily Ever After",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "happy"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "The Spaces Between",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "the spaces between"
+                ]
+              }
+            },
+            {
+              "title": "The End of Everything",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "the end of everything"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

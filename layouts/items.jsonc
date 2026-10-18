@@ -1,0 +1,77 @@
+{
+  // sets layouts for shadred items grids
+  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+  "item_settings": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "10, 10",
+        "h_alignment": "left",
+        "item_size": 32,
+        "rows": [
+          [
+            "chapter_access_rando",
+            "pristine_sword_rando"
+          ],
+          [
+            "pristine_blade_rando",
+            "narrator_rando"
+          ]
+        ]
+      }
+    ]
+  },
+  "location_settings": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "10, 10",
+        "h_alignment": "left",
+        "item_size": 32,
+        "rows": [
+          [
+            "chapter_sanity",
+            "mirror_sanity"
+          ],
+          [
+            "heart_sanity",
+            "oblivion_sanity"
+          ],
+          [
+            "voice_sanity"
+          ]
+        ]
+      }
+    ]
+  },
+  "combo_settings": {
+    "type": "itemgrid",
+    "item_margin": "10, 10",
+    "h_alignment": "left",
+    "item_size": 32,
+    "rows": [
+      [
+        "gift_rando",
+        "memories_sanity"
+      ]
+    ]
+  },
+  "goal_settings": {
+    "type": "itemgrid",
+    "item_margin": "10, 10",
+    "h_alignment": "left",
+    "item_size": 32,
+    "rows": [
+      [
+        "goal",
+        "memories_req"
+      ]
+    ]
+  }
+}

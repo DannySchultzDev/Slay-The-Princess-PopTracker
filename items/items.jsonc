@@ -1,0 +1,897 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+  {
+    "name": "Chapter Access Rando",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Chapter Access Rando - Disabled",
+        "img": "images/items/princess.png",
+        "img_mods": "@disabled",
+        "codes": "chapter_access_rando,chapter_access_rando_disabled",
+        "inherit_codes": false
+      },
+      {
+        "name": "Chapter Access Rando - Princess",
+        "img": "images/items/princess.png",
+        "codes": "chapter_access_rando,chapter_access_rando_princess",
+        "inherit_codes": false
+      },
+      {
+        "name": "Chapter Access Rando - Voices",
+        "img": "images/items/hero.png",
+        "codes": "chapter_access_rando,chapter_access_rando_voice",
+        "inherit_codes": false
+      },
+      {
+        "name": "Chapter Access Rando - Princess + Voices",
+        "img": "images/items/princess.png",
+        "img_mods": "overlay|images/items/hero_small.png",
+        "codes": "chapter_access_rando,chapter_access_rando_princess,chapter_access_rando_voice",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Pristine Blade Rando",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Pristine Blade Rando - Disabled",
+        "img": "images/items/pristine_blade.png",
+        "img_mods": "@disabled",
+        "codes": "pristine_blade_rando,pristine_blade_rando_disabled",
+        "inherit_codes": false
+      },
+      {
+        "name": "Pristine Blade Rando - Singular",
+        "img": "images/items/pristine_blade.png",
+        "codes": "pristine_blade_rando,pristine_blade_rando_single",
+        "inherit_codes": false
+      },
+      {
+        "name": "Pristine Blade Rando - Chapter",
+        "img": "images/items/pristine_blade_chapter.png",
+        "codes": "pristine_blade_rando,pristine_blade_rando_chapter",
+        "inherit_codes": false
+      },
+      {
+        "name": "Pristine Blade Rando - Princess",
+        "img": "images/items/princess.png",
+        "img_mods": "overlay|images/items/pristine_blade_small.png",
+        "codes": "pristine_blade_rando,pristine_blade_rando_princess",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Pristine Sword Rando",
+    "type": "toggle",
+    "codes": "pristine_sword_rando",
+    "img": "images/items/pristine_sword.png"
+  },
+  {
+    "name": "Gift Rando",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Gift Rando - Disabled",
+        "img": "images/items/a_gift.png",
+        "img_mods": "@disabled",
+        "codes": "gift_rando,gift_rando_disabled",
+        "inherit_codes": false
+      },
+      {
+        "name": "Gift Rando - Item",
+        "img": "images/items/a_gift.png",
+        "codes": "gift_rando,gift_rando_item",
+        "inherit_codes": false
+      },
+      {
+        "name": "Gift Rando - Locatiion",
+        "img": "images/items/gift_location.png",
+        "codes": "gift_rando,gift_rando_location",
+        "inherit_codes": false
+      },
+      {
+        "name": "Gift Rando - Item + Location",
+        "img": "images/items/a_gift.png",
+        "img_mods": "overlay|images/items/gift_location_small.png",
+        "codes": "gift_rando,gift_rando_item_location",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Narrator Rando",
+    "type": "toggle",
+    "codes": "narrator_rando",
+    "img": "images/items/narrator.png"
+  },
+  {
+    "name": "Chapter Rando",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Chapter Rando - Disabled",
+        "img": "images/items/apotheosis.png",
+        "img_mods": "@disabled",
+        "codes": "chapter_sanity,chapter_sanity_disabled",
+        "inherit_codes": false
+      },
+      {
+        "name": "Chapter Rando - Chapter",
+        "img": "images/items/apotheosis.png",
+        "codes": "chapter_sanity,chapter_sanity_chapter",
+        "inherit_codes": false
+      },
+      {
+        "name": "Chapter Rando - Global",
+        "img": "images/items/chapter_global.png",
+        "codes": "chapter_sanity,chapter_sanity_global",
+        "inherit_codes": false
+      },
+      {
+        "name": "Chapter Rando - Chapter + Global",
+        "img": "images/items/apotheosis.png",
+        "img_mods": "overlay|images/items/chapter_global_small.png",
+        "codes": "chapter_sanity,chapter_sanity_chapter_global",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Voice Rando",
+    "type": "toggle",
+    "img": "images/items/hero.png",
+    "codes": "voice_sanity"
+  },
+  {
+    "name": "Heart Rando",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Heart Rando - Disabled",
+        "img": "images/items/a_gift.png",
+        "img_mods": "@disabled",
+        "codes": "heart_sanity,heart_sanity_disabled",
+        "inherit_codes": false
+      },
+      {
+        "name": "Heart Rando - Heart",
+        "img": "images/items/a_gift.png",
+        "codes": "heart_sanity,heart_sanity_heart",
+        "inherit_codes": false
+      },
+      {
+        "name": "Heart Rando - Vessel",
+        "img": "images/items/vessel.png",
+        "codes": "heart_sanity,heart_sanity_vessel",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mirror Rando",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Mirror Rando - Disabled",
+        "img": "images/items/long_quiet.png",
+        "img_mods": "@disabled",
+        "codes": "mirror_sanity,mirror_sanity_disabled",
+        "inherit_codes": false
+      },
+      {
+        "name": "Mirror Rando - The Spaces Between",
+        "img": "images/items/long_quiet.png",
+        "codes": "mirror_sanity,mirror_sanity_spaces",
+        "inherit_codes": false
+      },
+      {
+        "name": "Mirror Rando - Chapter",
+        "img": "images/items/adversary.png",
+        "codes": "mirror_sanity,mirror_sanity_chapter",
+        "inherit_codes": false
+      },
+      {
+        "name": "Mirror Rando - The Spaces Between + Chapter",
+        "img": "images/items/long_quiet.png",
+        "img_mods": "overlay|images/items/adversary_small.png",
+        "codes": "mirror_sanity,mirror_sanity_spaces_chapter",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Oblivion Rando",
+    "type": "toggle",
+    "img": "images/items/oblivion.png",
+    "codes": "oblivion_sanity"
+  },
+  {
+    "name": "Memories Sanity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Memories Sanity - Disabled",
+        "img": "images/items/gallery_locked.png",
+        "img_mods": "@disabled",
+        "codes": "memories_sanity,memories_sanity_disabled",
+        "inherit_codes": false
+      },
+      {
+        "name": "Memories Sanity - Location",
+        "img": "images/items/gallery_locked.png",
+        "codes": "memories_sanity,memories_sanity_location",
+        "inherit_codes": false
+      },
+      {
+        "name": "Memories Sanity - Item + Location",
+        "img": "images/items/gallery_first.png",
+        "codes": "memories_sanity,memories_sanity_item_location",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "The Princess",
+    "type": "static",
+    "img": "images/items/princess.png",
+    "codes": "princess_static"
+  },
+  {
+    "name": "The Razor",
+    "type": "static",
+    "img": "images/items/razor.png",
+    "codes": "razor_static"
+  },
+  {
+    "name": "The Razor",
+    "type": "toggle",
+    "img": "images/items/razor.png",
+    "codes": "razor_toggle"
+  },
+  {
+    "name": "The Adversary",
+    "type": "static",
+    "img": "images/items/adversary.png",
+    "codes": "adversary_static"
+  },
+  {
+    "name": "The Adversary",
+    "type": "toggle",
+    "img": "images/items/adversary.png",
+    "codes": "adversary_toggle"
+  },
+  {
+    "name": "The Tower",
+    "type": "static",
+    "img": "images/items/tower.png",
+    "codes": "tower_static"
+  },
+  {
+    "name": "The Tower",
+    "type": "toggle",
+    "img": "images/items/tower.png",
+    "codes": "tower_toggle"
+  },
+  {
+    "name": "The Spectre",
+    "type": "static",
+    "img": "images/items/spectre.png",
+    "codes": "spectre_static"
+  },
+  {
+    "name": "The Spectre",
+    "type": "toggle",
+    "img": "images/items/spectre.png",
+    "codes": "spectre_toggle"
+  },
+  {
+    "name": "The Nightmare",
+    "type": "static",
+    "img": "images/items/nightmare.png",
+    "codes": "nightmare_static"
+  },
+  {
+    "name": "The Nightmare",
+    "type": "toggle",
+    "img": "images/items/nightmare.png",
+    "codes": "nightmare_toggle"
+  },
+  {
+    "name": "The Stranger",
+    "type": "static",
+    "img": "images/items/stranger.png",
+    "codes": "stranger_static"
+  },
+  {
+    "name": "The Stranger",
+    "type": "toggle",
+    "img": "images/items/stranger.png",
+    "codes": "stranger_toggle"
+  },
+  {
+    "name": "The Beast",
+    "type": "static",
+    "img": "images/items/beast.png",
+    "codes": "beast_static"
+  },
+  {
+    "name": "The Beast",
+    "type": "toggle",
+    "img": "images/items/beast.png",
+    "codes": "beast_toggle"
+  },
+  {
+    "name": "The Witch",
+    "type": "static",
+    "img": "images/items/witch.png",
+    "codes": "witch_static"
+  },
+  {
+    "name": "The Witch",
+    "type": "toggle",
+    "img": "images/items/witch.png",
+    "codes": "witch_toggle"
+  },
+  {
+    "name": "The Prisoner",
+    "type": "static",
+    "img": "images/items/prisoner.png",
+    "codes": "prisoner_static"
+  },
+  {
+    "name": "The Prisoner",
+    "type": "toggle",
+    "img": "images/items/prisoner.png",
+    "codes": "prisoner_toggle"
+  },
+  {
+    "name": "The Damsel",
+    "type": "static",
+    "img": "images/items/damsel.png",
+    "codes": "damsel_static"
+  },
+  {
+    "name": "The Damsel",
+    "type": "toggle",
+    "img": "images/items/damsel.png",
+    "codes": "damsel_toggle"
+  },
+  {
+    "name": "The Eye of the Needle",
+    "type": "static",
+    "img": "images/items/needle.png",
+    "codes": "needle_static"
+  },
+  {
+    "name": "The Eye of the Needle",
+    "type": "toggle",
+    "img": "images/items/needle.png",
+    "codes": "needle_toggle"
+  },
+  {
+    "name": "The Fury",
+    "type": "static",
+    "img": "images/items/fury.png",
+    "codes": "fury_static"
+  },
+  {
+    "name": "The Fury",
+    "type": "toggle",
+    "img": "images/items/fury.png",
+    "codes": "fury_toggle"
+  },
+  {
+    "name": "The Apotheosis",
+    "type": "static",
+    "img": "images/items/apotheosis.png",
+    "codes": "apotheosis_static"
+  },
+  {
+    "name": "The Apotheosis",
+    "type": "toggle",
+    "img": "images/items/apotheosis.png",
+    "codes": "apotheosis_toggle"
+  },
+  {
+    "name": "The Princess and the Dragon",
+    "type": "static",
+    "img": "images/items/dragon.png",
+    "codes": "dragon_static"
+  },
+  {
+    "name": "The Princess and the Dragon",
+    "type": "toggle",
+    "img": "images/items/dragon.png",
+    "codes": "dragon_toggle"
+  },
+  {
+    "name": "The Wraith",
+    "type": "static",
+    "img": "images/items/wraith.png",
+    "codes": "wraith_static"
+  },
+  {
+    "name": "The Wraith",
+    "type": "toggle",
+    "img": "images/items/wraith.png",
+    "codes": "wraith_toggle"
+  },
+  {
+    "name": "The Moment of Clarity",
+    "type": "static",
+    "img": "images/items/clarity.png",
+    "codes": "clarity_static"
+  },
+  {
+    "name": "The Moment of Clarity",
+    "type": "toggle",
+    "img": "images/items/clarity.png",
+    "codes": "clarity_toggle"
+  },
+  {
+    "name": "The Den",
+    "type": "static",
+    "img": "images/items/den.png",
+    "codes": "den_static"
+  },
+  {
+    "name": "The Den",
+    "type": "toggle",
+    "img": "images/items/den.png",
+    "codes": "den_toggle"
+  },
+  {
+    "name": "The Wild",
+    "type": "static",
+    "img": "images/items/wild.png",
+    "codes": "wild_static"
+  },
+  {
+    "name": "The Wild",
+    "type": "toggle",
+    "img": "images/items/wild.png",
+    "codes": "wild_toggle"
+  },
+  {
+    "name": "The Thorn",
+    "type": "static",
+    "img": "images/items/thorn.png",
+    "codes": "thorn_static"
+  },
+  {
+    "name": "The Thorn",
+    "type": "toggle",
+    "img": "images/items/thorn.png",
+    "codes": "thorn_toggle"
+  },
+  {
+    "name": "The Cage",
+    "type": "static",
+    "img": "images/items/cage.png",
+    "codes": "cage_static"
+  },
+  {
+    "name": "The Cage",
+    "type": "toggle",
+    "img": "images/items/cage.png",
+    "codes": "cage_toggle"
+  },
+  {
+    "name": "The Grey",
+    "type": "static",
+    "img": "images/items/grey.png",
+    "codes": "grey_static"
+  },
+  {
+    "name": "The Grey",
+    "type": "toggle",
+    "img": "images/items/grey.png",
+    "codes": "grey_toggle"
+  },
+  {
+    "name": "Happily Ever After",
+    "type": "static",
+    "img": "images/items/happy.png",
+    "codes": "happy_static"
+  },
+  {
+    "name": "Happily Ever After",
+    "type": "toggle",
+    "img": "images/items/happy.png",
+    "codes": "happy_toggle"
+  },
+  {
+    "name": "The Shifting Mound",
+    "type": "static",
+    "img": "images/items/shifting_mound.png",
+    "codes": "shifting_mound_static"
+  },
+  {
+    "name": "The Shifting Mound",
+    "type": "toggle",
+    "img": "images/items/shifting_mound.png",
+    "codes": "shifting_mound_toggle"
+  },
+  {
+    "name": "The Hero",
+    "type": "static",
+    "img": "images/items/hero.png",
+    "codes": "hero_static"
+  },
+  {
+    "name": "The Cheated",
+    "type": "static",
+    "img": "images/items/cheated.png",
+    "codes": "cheated_static"
+  },
+  {
+    "name": "The Cheated",
+    "type": "toggle",
+    "img": "images/items/cheated.png",
+    "codes": "cheated_toggle"
+  },
+  {
+    "name": "The Stubborn",
+    "type": "static",
+    "img": "images/items/stubborn.png",
+    "codes": "stubborn_static"
+  },
+  {
+    "name": "The Stubborn",
+    "type": "toggle",
+    "img": "images/items/stubborn.png",
+    "codes": "stubborn_toggle"
+  },
+  {
+    "name": "The Broken",
+    "type": "static",
+    "img": "images/items/broken.png",
+    "codes": "broken_static"
+  },
+  {
+    "name": "The Broken",
+    "type": "toggle",
+    "img": "images/items/broken.png",
+    "codes": "broken_toggle"
+  },
+  {
+    "name": "The Cold",
+    "type": "static",
+    "img": "images/items/cold.png",
+    "codes": "cold_static"
+  },
+  {
+    "name": "The Cold",
+    "type": "toggle",
+    "img": "images/items/cold.png",
+    "codes": "cold_toggle"
+  },
+  {
+    "name": "The Paranoid",
+    "type": "static",
+    "img": "images/items/paranoid.png",
+    "codes": "paranoid_static"
+  },
+  {
+    "name": "The Paranoid",
+    "type": "toggle",
+    "img": "images/items/paranoid.png",
+    "codes": "paranoid_toggle"
+  },
+  {
+    "name": "The Contrarian",
+    "type": "static",
+    "img": "images/items/contrarian.png",
+    "codes": "contrarian_static"
+  },
+  {
+    "name": "The Contrarian",
+    "type": "toggle",
+    "img": "images/items/contrarian.png",
+    "codes": "contrarian_toggle"
+  },
+  {
+    "name": "The Hunted",
+    "type": "static",
+    "img": "images/items/hunted.png",
+    "codes": "hunted_static"
+  },
+  {
+    "name": "The Hunted",
+    "type": "toggle",
+    "img": "images/items/hunted.png",
+    "codes": "hunted_toggle"
+  },
+  {
+    "name": "The Opportunist",
+    "type": "static",
+    "img": "images/items/opportunist.png",
+    "codes": "opportunist_static"
+  },
+  {
+    "name": "The Opportunist",
+    "type": "toggle",
+    "img": "images/items/opportunist.png",
+    "codes": "opportunist_toggle"
+  },
+  {
+    "name": "The Skeptic",
+    "type": "static",
+    "img": "images/items/skeptic.png",
+    "codes": "skeptic_static"
+  },
+  {
+    "name": "The Skeptic",
+    "type": "toggle",
+    "img": "images/items/skeptic.png",
+    "codes": "skeptic_toggle"
+  },
+  {
+    "name": "The Smitten",
+    "type": "static",
+    "img": "images/items/smitten.png",
+    "codes": "smitten_static"
+  },
+  {
+    "name": "The Smitten",
+    "type": "toggle",
+    "img": "images/items/smitten.png",
+    "codes": "smitten_toggle"
+  },
+  {
+    "name": "Pristine Blade",
+    "type": "static",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_static"
+  },
+  {
+    "name": "Pristine Blade",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_toggle"
+  },
+  {
+    "name": "Pristine Blade - Chapter I",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_chapter_1"
+  },
+  {
+    "name": "Pristine Blade - Chapter II",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_chapter_2"
+  },
+  {
+    "name": "Pristine Blade - Chapter III",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_chapter_3"
+  },
+  {
+    "name": "Pristine Blade - End",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_chapter_4"
+  },
+  {
+    "name": "Pristine Blade - The Princess",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_princess"
+  },
+  {
+    "name": "Pristine Blade - The Razor",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_razor"
+  },
+  {
+    "name": "Pristine Blade - The Adversary",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_adversary"
+  },
+  {
+    "name": "Pristine Blade - The Tower",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_tower"
+  },
+  {
+    "name": "Pristine Blade - The Spectre",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_spectre"
+  },
+  {
+    "name": "Pristine Blade - The Nightmare",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_nightmare"
+  },
+  {
+    "name": "Pristine Blade - The Stranger",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_stranger"
+  },
+  {
+    "name": "Pristine Blade - The Beast",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_beast"
+  },
+  {
+    "name": "Pristine Blade - The Witch",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_witch"
+  },
+  {
+    "name": "Pristine Blade - The Prisoner",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_prisoner"
+  },
+  {
+    "name": "Pristine Blade - The Damsel",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_damsel"
+  },
+  {
+    "name": "Pristine Blade - The Eye of the Needle",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_needle"
+  },
+  {
+    "name": "Pristine Blade - The Fury",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_fury"
+  },
+  {
+    "name": "Pristine Blade - The Apotheosis",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_apotheosis"
+  },
+  {
+    "name": "Pristine Blade - The Princess and the Dragon",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_dragon"
+  },
+  {
+    "name": "Pristine Blade - The Moment of Clarity",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_clarity"
+  },
+  {
+    "name": "Pristine Blade - The Den",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_den"
+  },
+  {
+    "name": "Pristine Blade - The Wild",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_wild"
+  },
+  {
+    "name": "Pristine Blade - The Thorn",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_thorn"
+  },
+  {
+    "name": "Pristine Blade - The Cage",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_cage"
+  },
+  {
+    "name": "Pristine Blade - The Grey",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_grey"
+  },
+  {
+    "name": "Pristine Blade - Happily Ever After",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_happy"
+  },
+  {
+    "name": "Pristine Blade - The End of Everything",
+    "type": "toggle",
+    "img": "images/items/pristine_blade.png",
+    "codes": "pristine_blade_shifting_mound"
+  },
+  {
+    "name": "Pristine Sword",
+    "type": "toggle",
+    "img": "images/items/pristine_sword.png",
+    "codes": "pristine_sword"
+  },
+  {
+    "name": "Invitations",
+    "type": "consumable",
+    "img": "images/items/a_gift.png",
+    "codes": "gifts",
+    "min_quantity": 0,
+    "max_quantity": 5
+  },
+  {
+    "name": "Narrator",
+    "type": "toggle",
+    "img": "images/items/narrator.png",
+    "codes": "narrator"
+  },
+  {
+    "name": "Goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Goal - Our Song",
+        "img": "images/items/princess.png",
+        "codes": "goal,goal_standard",
+        "inherit_codes": false
+      },
+      {
+        "name": "Goal - Your New World",
+        "img": "images/items/shifting_mound.png",
+        "codes": "goal,goal_hard",
+        "inherit_codes": false
+      },
+      {
+        "name": "Goal - Oblivion",
+        "img": "images/items/oblivion.png",
+        "codes": "goal,goal_oblivion",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Memories Hunt",
+    "type": "consumable",
+    "img": "images/items/gallery_first.png",
+    "disabled_img": "images/items/gallery_locked.png",
+    "codes": "memories_req",
+    "min_quantity": 0,
+    "max_quantity": 439
+  },
+  {
+    "name": "Memories",
+    "type": "consumable",
+    "img": "images/items/gallery_first.png",
+    "disabled_img": "images/items/gallery_locked.png",
+    "codes": "memories_rec",
+    "min_quantity": 0,
+    "max_quantity": 439
+  }
+]

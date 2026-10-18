@@ -1,0 +1,159 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
+  {
+    "name": "overview",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_overview.png"
+  },
+  {
+    "name": "chapter 1",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_ch1_alt.png"
+  },
+  {
+    "name": "razor",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_razor_alt.png"
+  },
+  {
+    "name": "adversary",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_adversary.png"
+  },
+  {
+    "name": "tower",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_tower.png"
+  },
+  {
+    "name": "spectre",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_spectre.png"
+  },
+  {
+    "name": "nightmare",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_nightmare_alt.png"
+  },
+  {
+    "name": "stranger",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_stranger.png"
+  },
+  {
+    "name": "beast",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_beast.png"
+  },
+  {
+    "name": "witch",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_witch.png"
+  },
+  {
+    "name": "prisoner",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_prisoner.png"
+  },
+  {
+    "name": "damsel",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_damsel.png"
+  },
+  {
+    "name": "needle",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_needle.png"
+  },
+  {
+    "name": "fury",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_fury_alt.png"
+  },
+  {
+    "name": "apotheosis",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_apotheosis.png"
+  },
+  {
+    "name": "dragon",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_dragon.png"
+  },
+  {
+    "name": "wraith",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_wraith.png"
+  },
+  {
+    "name": "clarity",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_clarity.png"
+  },
+  {
+    "name": "den",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_den.png"
+  },
+  {
+    "name": "wild",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_wild.png"
+  },
+  {
+    "name": "thorn",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_thorn.png"
+  },
+  {
+    "name": "cage",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_cage.png"
+  },
+  {
+    "name": "grey",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_grey.png"
+  },
+  {
+    "name": "happy",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_happy.png"
+  },
+  {
+    "name": "the spaces between",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_spaces_alt.png"
+  },
+  {
+    "name": "the end of everything",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/map_end.png"
+  }
+]

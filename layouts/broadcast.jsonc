@@ -1,0 +1,124 @@
+{
+  //sets the layout for the broadcast view
+  "tracker_broadcast": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "dock": "left",
+        "content": [
+          {
+            "type": "group",
+            "header": "Items",
+            "dock": "left",
+            "margin": "0,0,3,0",
+            "content": {
+              "type": "layout",
+              "h_alignment": "center",
+              "v_alignment": "center",
+              "key": "princess_row_1"
+            }
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "margin": "0,0,3,0",
+            "content": {
+              "type": "layout",
+              "h_alignment": "center",
+              "v_alignment": "center",
+              "key": "voice"
+            }
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "margin": "0,0,3,0",
+            "content": {
+              "type": "layout",
+              "h_alignment": "center",
+              "v_alignment": "center",
+              "key": "blade_row_1"
+            }
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "margin": "0,0,3,0",
+            "content": {
+              "type": "layout",
+              "h_alignment": "center",
+              "v_alignment": "center",
+              "key": "princess_row_2"
+            }
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "margin": "0,0,3,0",
+            "content": {
+              "type": "layout",
+              "h_alignment": "center",
+              "v_alignment": "center",
+              "key": "blade_row_2"
+            }
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "dock": "left",
+        "content": [
+          {
+            "type": "group",
+            "dock": "left",
+            "margin": "0,0,3,0",
+            "content": {
+              "type": "layout",
+              "h_alignment": "center",
+              "v_alignment": "center",
+              "key": "sword_row"
+            }
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "margin": "0,0,3,0",
+            "content": {
+              "type": "layout",
+              "h_alignment": "center",
+              "v_alignment": "center",
+              "key": "narrator_row"
+            }
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "margin": "0,0,3,0",
+            "content": {
+              "type": "layout",
+              "h_alignment": "center",
+              "v_alignment": "center",
+              "key": "gifts_row"
+            }
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "margin": "0,0,3,0",
+            "content": {
+              "type": "layout",
+              "h_alignment": "center",
+              "v_alignment": "center",
+              "key": "memories_row"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

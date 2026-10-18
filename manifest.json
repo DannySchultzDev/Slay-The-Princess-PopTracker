@@ -1,0 +1,18 @@
+{
+  "name": "Slay The Princess Pack",
+  "game_name": "Slay The Princess",
+  "package_version": "1.0.0",
+  "package_uid": "slay_the_princess",
+  "platform": "PC",
+  "author": "WaluigiGoesWa",
+  "min_poptracker_version": "0.25.9",
+  "target_poptracker_version": "0.35.4",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": [
+        "ap"
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "blade_row_1": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "10, 10",
+        "h_alignment": "left",
+        "item_size": 48,
+        "rows": [
+          [
+            "pristine_blade_princess",
+            "pristine_blade_razor",
+            "pristine_blade_adversary",
+            "pristine_blade_tower",
+            "pristine_blade_spectre",
+            "pristine_blade_nightmare",
+            "pristine_blade_stranger",
+            "pristine_blade_beast",
+            "pristine_blade_witch",
+            "pristine_blade_prisoner",
+            "pristine_blade_damsel"
+          ]
+        ]
+      }
+    ]
+  },
+  "blade_row_2": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "10, 10",
+        "h_alignment": "left",
+        "item_size": 48,
+        "rows": [
+          [
+            "pristine_blade_needle",
+            "pristine_blade_fury",
+            "pristine_blade_apotheosis",
+            "pristine_blade_dragon",
+            "",
+            "pristine_blade_clarity",
+            "pristine_blade_den",
+            "pristine_blade_wild",
+            "pristine_blade_thorn",
+            "pristine_blade_cage",
+            "pristine_blade_grey",
+            "pristine_blade_happy",
+            "pristine_blade_shifting_mound"
+          ]
+        ]
+      }
+    ]
+  }
+}

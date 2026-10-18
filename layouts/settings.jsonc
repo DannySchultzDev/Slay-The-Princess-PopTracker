@@ -1,0 +1,70 @@
+{
+  "settings_popup":{
+    "background": "#000000",
+    "type": "array",
+    "orientation": "vertical",
+    "dock": "left",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "group",
+            "header": "Item Settings",
+            "dock": "left",
+            "margin": "0,0,3,0",
+            "content": {
+              "type": "layout",
+              "h_alignment": "center",
+              "v_alignment": "center",
+              "key": "item_settings"
+            }
+          },
+          {
+            "type": "group",
+            "header": "Location Settings",
+            "dock": "left",
+            "margin": "0,0,3,0",
+            "content": {
+              "type": "layout",
+              "h_alignment": "center",
+              "v_alignment": "center",
+              "key": "location_settings"
+            }
+          }
+        ]
+      },
+      {
+          "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "group",
+            "header": "Combo Settings",
+            "dock": "left",
+            "margin": "0,0,3,0",
+            "content": {
+              "type": "layout",
+              "h_alignment": "center",
+              "v_alignment": "center",
+              "key": "combo_settings"
+            }
+          },
+          {
+            "type": "group",
+            "header": "Goal Settings",
+            "dock": "left",
+            "margin": "0,0,3,0",
+            "content": {
+              "type": "layout",
+              "h_alignment": "center",
+              "v_alignment": "center",
+              "key": "goal_settings"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
