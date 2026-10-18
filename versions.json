@@ -1,5 +1,12 @@
 {
     "versions": [
-        
+        {
+            "package_version": "1.0.0",
+            "download_url": "https://github.com/DannySchultzDev/Slay-The-Princess-PopTracker/releases/tag/V1.0.0",
+            "sha256": "3b57bc5d45ced04c54b3068acb60cd020f28801560aac3f521ff46b37dde16c9",
+            "changelog": [
+                "Initial commit."
+            ]
+        }   
     ]
 }
